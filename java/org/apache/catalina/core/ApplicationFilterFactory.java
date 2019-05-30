@@ -113,7 +113,7 @@ public final class ApplicationFilterFactory {
         boolean comet = false;
         
         // Create and initialize a filter chain object
-        ApplicationFilterChain filterChain = null;
+        ApplicationFilterChain filterChain;
         if (request instanceof Request) {
             Request req = (Request) request;
             comet = req.isComet();

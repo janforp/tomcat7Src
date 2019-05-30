@@ -250,6 +250,7 @@ public abstract class HttpServlet extends GenericServlet {
 
 
     /**
+     * 这是默认实现，不能直接使用该函数，需要复写该函数
      * Called by the server (via the <code>service</code> method)
      * to allow a servlet to handle a POST request.
      *

@@ -54,6 +54,7 @@ public abstract class FilterBase implements Filter {
         Enumeration<String> paramNames = filterConfig.getInitParameterNames();
         while (paramNames.hasMoreElements()) {
             String paramName = paramNames.nextElement();
+            //把配置参数 set 到对应的属性中去
             if (!IntrospectionUtils.setProperty(this, paramName,
                     filterConfig.getInitParameter(paramName))) {
                 String msg = sm.getString("filterbase.noSuchProperty",

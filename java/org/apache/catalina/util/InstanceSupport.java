@@ -190,7 +190,7 @@ public final class InstanceSupport {
      * @param response The servlet response we are processing
      * @param exception Exception that occurred
      */
-    public void fireInstanceEvent(String type, Filter filter,
+    public void  fireInstanceEvent(String type, Filter filter,
                                   ServletRequest request,
                                   ServletResponse response,
                                   Throwable exception) {
