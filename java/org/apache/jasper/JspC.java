@@ -122,7 +122,7 @@ public class JspC extends Task implements Options {
     protected static final String SWITCH_WEBAPP_XML_ENCODING = "-webxmlencoding";
     protected static final String SWITCH_ADD_WEBAPP_XML_MAPPINGS = "-addwebxmlmappings";
     protected static final String SWITCH_MAPPED = "-mapped";
-    protected static final String SWITCH_XPOWERED_BY = "-xpoweredBy";
+    protected static final String SWITCH_XPOWERED_BY = "-xPoweredBy";
     protected static final String SWITCH_TRIM_SPACES = "-trimSpaces";
     protected static final String SWITCH_CLASSPATH = "-classpath";
     protected static final String SWITCH_DIE = "-die";

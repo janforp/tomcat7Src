@@ -235,7 +235,7 @@
   <!--   trimSpaces          Should template text that consists entirely of -->
   <!--                       whitespace be removed from the output? [false] -->
   <!--                                                                      -->
-  <!--   xpoweredBy          Determines whether X-Powered-By response       -->
+  <!--   xPoweredBy          Determines whether X-Powered-By response       -->
   <!--                       header is added by generated servlet.  [false] -->
   <!--                                                                      -->
   <!--   quoteAttributeEL    When EL is used in an attribute value on a     -->
@@ -251,7 +251,7 @@
             <param-value>false</param-value>
         </init-param>
         <init-param>
-            <param-name>xpoweredBy</param-name>
+            <param-name>xPoweredBy</param-name>
             <param-value>false</param-value>
         </init-param>
         <load-on-startup>3</load-on-startup>
