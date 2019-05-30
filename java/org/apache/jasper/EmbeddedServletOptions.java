@@ -712,7 +712,7 @@ public final class EmbeddedServletOptions implements Options {
             }
         }
         
-        String xpoweredBy = config.getInitParameter("xPoweredBy");
+        String xpoweredBy = config.getInitParameter("xpoweredBy"); 
         if (xpoweredBy != null) {
             if (xpoweredBy.equalsIgnoreCase("true")) {
                 this.xpoweredBy = true;

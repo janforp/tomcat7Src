@@ -425,7 +425,7 @@ public class CoyoteAdapter implements Adapter {
 
         }
 
-        if (connector.getxPoweredBy()) {
+        if (connector.getXpoweredBy()) {
             response.addHeader("X-Powered-By", POWERED_BY);
         }
 

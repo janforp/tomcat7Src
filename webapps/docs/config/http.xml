@@ -255,7 +255,7 @@
       to send the request to.  The default value is <code>false</code>.</p>
     </attribute>
 
-    <attribute name="xPoweredBy" required="false">
+    <attribute name="xpoweredBy" required="false">
       <p>Set this attribute to <code>true</code> to cause Tomcat to advertise
       support for the Servlet specification using the header recommended in the
       specification.  The default value is <code>false</code>.</p>

@@ -194,7 +194,7 @@
           description="Should IP-based virtual hosting be used? "
                  type="boolean"/>
 
-    <attribute    name="xPoweredBy"
+    <attribute    name="xpoweredBy"
            description="Is generation of X-Powered-By response header enabled/disabled?"
                   type="boolean"/>
 

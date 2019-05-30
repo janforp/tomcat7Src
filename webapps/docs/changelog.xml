@@ -703,7 +703,7 @@
       </fix>
       <fix>
         Correct the JSP version in the X-PoweredBy HTTP header generated when
-        the xPoweredBy option is enabled. (markt)
+        the xpoweredBy option is enabled. (markt)
       </fix>
       <fix>
         <bug>62662</bug>: Fix the corruption of web.xml output during JSP
