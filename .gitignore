@@ -40,3 +40,9 @@ java/org/apache/catalina/startup/catalina.properties
 modules/jdbc-pool/bin
 modules/jdbc-pool/includes
 webapps/docs/jdbc-pool.xml
+/.idea/
+home/conf/Catalina/
+home/lib/
+target/
+.idea/
+/.idea/sonarlint/
