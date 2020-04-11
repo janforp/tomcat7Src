@@ -1,3 +1,10 @@
 servlet规范
 1.web应用需要有一定的目录结构，这样servlet容器通过读取配置文件，就能找到并加载Servlet
 2.servlet规范提供了两种扩展机制：Filter和Listener
+
+
+
+Servlet = server + applet
+
+applet:客户端
+server:服务端
